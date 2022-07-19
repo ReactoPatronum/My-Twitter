@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Sidebar from "/components/Sidebar";
 import Feed from "/components/Feed";
-import RightBar from "/components/RightBar";
+import RightBar from "/components/Rightbar";
 import { HomeIcon, UserIcon, UserAddIcon } from "@heroicons/react/outline";
 import Link from "next/link";
 
