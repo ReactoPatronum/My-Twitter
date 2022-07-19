@@ -1570,7 +1570,7 @@
     "merge2" "^1.4.1"
     "slash" "^3.0.0"
 
-"goober@^2.1.1":
+"goober@^2.1.10":
   "integrity" "sha512-7PpuQMH10jaTWm33sQgBQvz45pHR8N4l3Cu3WMGEWmHShAcTuuP7I+5/DwKo39fwti5A80WAjvqgz6SSlgWmGA=="
   "resolved" "https://registry.npmjs.org/goober/-/goober-2.1.10.tgz"
   "version" "2.1.10"
@@ -1938,10 +1938,17 @@
   "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
   "version" "1.2.6"
 
-"moment@^2.29.0":
-  "integrity" "sha512-c6YRvhEo//6T2Jz/vVtYzqBzwvPT95JBQ+smCytzf7c50oMZRsR/a4w88aD34I+/QVSfnoAnSBFPJHItlOMJVw=="
-  "resolved" "https://registry.npmjs.org/moment/-/moment-2.29.3.tgz"
-  "version" "2.29.3"
+"moment-timezone@^0.5.34":
+  "integrity" "sha512-3zAEHh2hKUs3EXLESx/wsgw6IQdusOT8Bxm3D9UrHPQR7zlMmzwybC8zHEM1tQ4LJwP7fcxrWr8tuBg05fFCbg=="
+  "resolved" "https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.34.tgz"
+  "version" "0.5.34"
+  dependencies:
+    "moment" ">= 2.9.0"
+
+"moment@^2.29.0", "moment@^2.29.4", "moment@>= 2.9.0":
+  "integrity" "sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w=="
+  "resolved" "https://registry.npmjs.org/moment/-/moment-2.29.4.tgz"
+  "version" "2.29.4"
 
 "ms@^2.1.1":
   "integrity" "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA=="
@@ -2314,12 +2321,12 @@
     "loose-envify" "^1.1.0"
     "scheduler" "^0.23.0"
 
-"react-hot-toast@^2.2.0":
-  "integrity" "sha512-248rXw13uhf/6TNDVzagX+y7R8J183rp7MwUMNkcrBRyHj/jWOggfXTGlM8zAOuh701WyVW+eUaWG2LeSufX9g=="
-  "resolved" "https://registry.npmjs.org/react-hot-toast/-/react-hot-toast-2.2.0.tgz"
-  "version" "2.2.0"
+"react-hot-toast@^2.3.0":
+  "integrity" "sha512-/RxV+bfjld7tSJR1SCLzMAXgFuNW7fCpK6+vbYqfmbGSWcqTMz2rizrvfWKvtcPH5HK0NqxmBaC5SrAy1F42zA=="
+  "resolved" "https://registry.npmjs.org/react-hot-toast/-/react-hot-toast-2.3.0.tgz"
+  "version" "2.3.0"
   dependencies:
-    "goober" "^2.1.1"
+    "goober" "^2.1.10"
 
 "react-is@^16.13.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="

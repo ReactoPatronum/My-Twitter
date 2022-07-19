@@ -13,7 +13,7 @@ import {
 import { db } from "../../firebase";
 import { ArrowNarrowLeftIcon } from "@heroicons/react/solid";
 import Moment from "react-moment";
-import "moment/locale/tr";
+
 import { useAuth } from "../../context/AuthContext";
 import {
   TrashIcon,
@@ -22,8 +22,10 @@ import {
   UserAddIcon,
 } from "@heroicons/react/outline";
 import Link from "next/link";
+import moment from "moment";
 
 const Post = ({ randomUsersResults }) => {
+  moment.locale("tr")
   const { user } = useAuth();
   const router = useRouter();
   const { id } = router.query;
